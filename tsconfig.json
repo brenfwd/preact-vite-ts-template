@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "module": "esnext",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "esnext",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "noEmit": true
+  },
+  "include": ["src/**/*"]
+}

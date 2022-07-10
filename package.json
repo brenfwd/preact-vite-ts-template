@@ -13,13 +13,12 @@
   },
   "dependencies": {
     "preact": "^10.9.0",
-    "wouter": "2.8.0-alpha.2"
+    "wouter-preact": "2.8.0-alpha.2"
   },
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
-        "@babel/core",
-        "react"
+        "@babel/core"
       ]
     }
   }

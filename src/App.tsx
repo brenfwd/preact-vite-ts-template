@@ -1,4 +1,4 @@
-import { Link, Route, Switch } from "wouter";
+import { Link, Route } from "wouter-preact";
 
 import styles from "./App.module.scss";
 import { Test } from "./Test";
@@ -15,9 +15,7 @@ export const App = () => {
         <br />
         <Link to="/test">Test Page</Link>
       </p>
-      <Switch>
-        <Route path="/test" component={Test} />
-      </Switch>
+      <Route path="/test" component={Test} />
     </div>
   );
 };

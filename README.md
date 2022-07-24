@@ -8,4 +8,5 @@ This is a batteries-included template I use for my Preact web apps.
 - Vite
 - TypeScript
 - Sass
+- Tailwind
 - [Wouter](https://github.com/molefrog/wouter)

@@ -1,48 +1,7 @@
-@use "sass:math";
-
-@import "./src/scss/shared.scss";
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  height: 100%;
-  @extend .sans;
-}
-
-body {
-  margin: 0;
-  height: 100%;
-
-  #root {
-    height: 100%;
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 code {
-  @extend .mono;
-
-  background-color: $color-secondary-light;
-  font-size: 0.8rem;
-  padding: 0.1rem 0.2rem;
-}
-
-@for $i from 1 through 6 {
-  h#{$i} {
-    @extend .sans-alt;
-    font-size: -0.25 * ($i - 6) + 1.25rem;
-    padding: -0.025rem * ($i - 6) 0;
-  }
-}
-
-p {
-  @extend .sans;
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
+  @apply text-rose-500 dark:text-rose-300;
 }

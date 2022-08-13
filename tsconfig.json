@@ -10,7 +10,14 @@
     "forceConsistentCasingInFileNames": true,
     "target": "esnext",
     "lib": ["esnext", "dom", "dom.iterable"],
-    "noEmit": true
+    "noEmit": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      // "@/*": ["./src/*"],
+      "react": ["./node_modules/preact/compat/"],
+      "react-dom": ["./node_modules/preact/compat/"]
+    }
   },
   "include": ["src/**/*"]
 }

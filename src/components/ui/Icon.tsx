@@ -26,14 +26,14 @@ export function Icon(props: IconProps) {
     return fallback ? (
       <>{fallback}</>
     ) : (
-      <span class={cx("select-none p-3", clazz)} {...rest}>
+      <span class={cx("select-none p-3", clazz as string)} {...rest}>
         &nbsp;
       </span>
     );
   }
 
   return (
-    <span class={cx("material-symbols-rounded select-none", clazz)} {...rest}>
+    <span class={cx("material-symbols-rounded select-none", clazz as string)} {...rest}>
       {icon ?? children}
     </span>
   );

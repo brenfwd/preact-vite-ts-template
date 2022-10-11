@@ -1,6 +1,6 @@
 import { useEffect } from "preact/hooks";
 
-import { useStickyState } from "../../utils/useStickyState";
+import { useStickyState } from "@/utils/useStickyState";
 import { Icon } from "./Icon";
 
 export function useDarkMode(): [darkMode: boolean, setDarkMode: (darkMode: boolean) => void] {

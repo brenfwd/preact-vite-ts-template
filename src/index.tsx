@@ -1,3 +1,5 @@
+///<reference types="vite/client" />
+
 import { render } from "preact";
 
 import { App } from "./App";

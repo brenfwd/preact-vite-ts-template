@@ -1,10 +1,17 @@
-export const Test = () => {
+import { Link } from "wouter-preact";
+
+import { Routes } from "@/routes";
+
+export function Test() {
   return (
-    <div>
-      <h1 class="text-3xl">Test</h1>
+    <>
       <p>
-        You can edit this file in the <code>src/Test.tsx</code> file.
+        This is the test page. You can{" "}
+        <Link to={Routes.Home} class="underline">
+          go back to the home page
+        </Link>{" "}
+        at any time.
       </p>
-    </div>
+    </>
   );
-};
+}

@@ -2,7 +2,7 @@ import cx from "classnames";
 import { JSXInternal } from "preact/src/jsx";
 import { ComponentChildren } from "preact";
 
-import { createAsyncHook } from "../../utils/asyncHook";
+import { createAsyncHook } from "@/utils/asyncHook";
 
 import "material-symbols/rounded.scss";
 import "./Icon.scss";
